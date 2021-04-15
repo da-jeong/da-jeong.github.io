@@ -1,0 +1,123 @@
+<!DOCTYPE html>
+<html>
+    <head>
+        <meta charset="UTF-8">
+        <title>Coat and pants</title>
+        <style>
+            *{margin:0; padding:0;}
+            li{list-style: none;}
+            a{text-decoration: none;}
+
+            .wrapper{width:1170px; margin: 3px; padding:3px;}
+            .clearfix{content:'';display:block; clear:both; }
+
+            header{
+                height:75px;
+                 background-color: thistle; 
+                 border:1px solid gray;
+                position: fixed; 
+                width: 100%; 
+                top: 0;
+                left: 0;
+            }
+            h1{
+                color: white;
+                line-height: 75px; 
+                float:left;
+                }
+            .menu{float:right;}
+            .menu li{float:left;}
+            .menu a{
+                line-height: 75px;
+                color: white; 
+                 padding: 0 15px;
+                display:block;
+                }
+            
+            
+            a { text-decoration:none }
+
+            #grid {
+                border:1px solid gray;
+                display: grid;
+                grid-template-columns: 200px 1fr;
+            }
+            div {
+                border: 5px; solid gray;
+                margin:100px
+            }
+            .box {
+                    border: 1px;
+                    background-color:thistle;
+                    width: 100px;
+                    height: 100px;
+                    margin:20px;
+                    padding:10px;
+            }
+            p{line-height: 3em;}
+            h{font-weight: bold;}
+        </style>
+    </head>
+
+    <header>
+        <div class="wrapper">
+            <h1>Adorable Dada</h1>
+            <nav>
+                <ul class="menu">
+                    <li><a href="./hw06_2.html">Login</a></li>
+                    <li><a href="./hw06_2.html">Join</a></li>
+                    <li><a href="./hw06_2.html">Market</a></li>
+                    <li><a href="./hw06_2.html">Order</a></li>
+                    <li><a href="/index.html">Home</a></li>
+                </ul>
+            </nav>
+        </div>
+    </header>
+
+    <body style="background-color:white;">
+        <center>       
+        <div id="grid">
+            <div><img src="./img/coat and pants.webp" width="300" height="450"></div>
+            <div>
+                <h>Coat</h>
+                <p>Price: 30,000</p>
+                <p>Color: <span form><select name="color">
+                    <option value="1" selected>--Color--</option>
+                    <option value="2">White</option>
+                    <option value="3">Black</option>
+                    <option value="4">Beige</option>
+                </select></span></p>
+                <p>Size: <span form><select name="size">
+                    <option value="1" selected>--Size--</option>
+                    <option value="2">55</option>
+                    <option value="3">66</option>
+                    <option value="4">77</option>
+                </select></span></p>
+                <h>Pants</h>
+                <p>Price:80,000</p>
+                <p>Color: <span form><select name="color2">
+                    <option value="1" selected>--Color--</option>
+                    <option value="2">Beige</option>
+                    <option value="3">Black</option>
+                    <option value="4">White</option>
+                    <option value="5">Brown</option> 
+                    </select> </span></p>
+                    <p>Size: <span form><select name="size2">
+                        <option value="1" selected>--Size--</option>
+                        <option value="2">55</option>
+                        <option value="3">66</option>
+                        <option value="4">77</option>
+                        </select> </span> </p>
+                     
+                </select> </span> </p>
+                <p>
+                <span class="box"><a href="#">BUY IT NOW</a> </span>
+                <span class="box"><a href="#">ADD TO CART</a></span>
+                <span class="box"><a href="#">WISH LIST</a></span></p>
+            </div>
+           
+        </div>
+    </center>
+    </body>
+
+</html>
