@@ -1,0 +1,105 @@
+    <!DOCTYPE html>
+    <html>
+        <head>
+            <meta charset="UTF-8">
+            <title>Join</title>
+            <style>
+                *{margin:0; padding:0;}
+                li{list-style: none;}
+                a{text-decoration: none;}
+
+                .wrapper{width:1170px; margin: 3px; padding:3px;}
+                .clearfix{content:'';display:block; clear:both; }
+
+                header{
+                    height:75px;
+                    background-color: thistle; 
+                    border:1px solid gray;
+                    position: fixed; 
+                    width: 100%; 
+                    top: 0;
+                    left: 0;
+                }
+                h1{
+                    color: white;
+                    line-height: 75px; 
+                    float:left;
+                    }
+                .menu{float:right;}
+                .menu li{float:left;}
+                .menu a{
+                        line-height: 75px;
+                        color: white; 
+                        padding: 0 15px;
+                        display:block;
+                        }
+                        a { text-decoration:none }
+
+                    #grid {
+                        border:1px solid gray;
+                        display: grid;
+                        grid-template-columns: 200px 1fr;
+                    }
+                    div {
+                        border: 5px; solid gray;
+                        margin:100px
+                    }
+                    .box {
+                            border: 1px;
+                            background-color:thistle;
+                            width: 100px;
+                            height: 100px;
+                            margin:20px;
+                            padding:10px;
+                    }
+                    p{line-height: 3em;}
+                    h{font-weight: bold;
+                    font-size: 30px;}
+                    
+                    .i{ 
+                        margin: 30px;
+                        padding: 30px;
+                    }
+                </style>
+            </head>
+            <header>
+                <div class="wrapper">
+                    <h1>Adorable Dada</h1>
+                    <nav>
+                        <ul class="menu">
+                            <li><a href="../hw06/hw06_2.html" >Login</a></li>
+                            <li><a href="./hw07.html">Join</a></li>
+                            <li><a href="../hw06/hw06_2.html">Market</a></li>
+                            <li><a href="../hw06/hw06_2.html">Order</a></li>
+                            <li><a href="../hw06/hw06.html">Home</a></li>
+                        </ul>
+                    </nav>
+                </div>
+            </header>
+            <section>
+                <center>
+                    <div id="grid">
+                    
+                    <div id="i"><p><img src="img/womanwalking.jpg" width="500" height="450"></p></div>
+                
+                        
+                        <div><p><h>Join</h></p>
+                            <form>
+                            Name:
+                            <input type="name">
+                        <p> Phone number:
+                            <input type="tel">
+                            <p> Email:
+                                <input type="email">
+                            </p>
+                        <p>Id : <input id='userid' type='text'/><br></p>
+                            Password : <input id='pwd' type='password'/>
+                            <p><input type="submit" value="click"></p>
+                    </form></div>
+                    
+                    </div>
+                    
+                </center>
+
+            </section>
+        </html>
